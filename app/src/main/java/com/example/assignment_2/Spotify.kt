@@ -163,10 +163,10 @@ fun spotifyView(){
 
         Box(
             modifier = Modifier
-                .padding(start = 40.dp, end = 40.dp) // Menyesuaikan lebar (width) dengan konten atas
+                .padding(start = 40.dp, end = 40.dp)
                 .fillMaxWidth()
                 .weight(1f) // Mengisi seluruh sisa ruang ke bawah layar
-                .clip(RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp)) // Hanya sudut atas yang melengkung
+                .clip(RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp))
                 .background(Color(0xff7d7c68))
                 .padding(24.dp)
         ){
